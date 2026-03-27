@@ -1,4 +1,5 @@
 
+
 /* Info page css code */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Leckerli+One&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&family=Salsa&family=Sue+Ellen+Francisco&display=swap');
 
@@ -6,12 +7,12 @@
     box-sizing: border-box;
 }
 
-.infopage1 {
+.infopage2 {
     background-color: #b8c0ff;
     padding: 20px 30px;
 }
 
-.infopage2 {
+.gray {
     width: 1200px;
     background-color: grey;
     border: 2px solid black;
