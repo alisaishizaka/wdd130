@@ -1,0 +1,109 @@
+/* Add your CSS here to style your valentines day page */
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Permanent+Marker&family=Salsa&family=Sue+Ellen+Francisco&display=swap');
+body {
+    background-color: pink;
+    outline: thick ridge red;
+    outline-width: 50px;
+    padding: 5%;
+    margin: 10%;
+}
+
+header {
+    background-color: rgb(255, 50, 50);
+    display: flex; 
+    flex-direction: column; 
+    padding: 80px;
+    color: white;
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; 
+    clip-path: polygon( 50% 12%, 61% 3%, 75% 0, 88% 4%, 100% 18%, 100% 35%, 95% 48%, 85% 63%, 70% 78%, 50% 92%, 30% 78%, 15% 63%, 5% 48%, 0 35%, 0 18%, 12% 4%, 25% 0, 39% 3% );
+    font-size: 20pt;
+    font-family: "Salsa", cursive;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    background-color: white;
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 150px;
+    color: rgb(255, 50, 50);
+    width: 280px; 
+    height: 280px; 
+    font-size: 60pt;
+    font-family: "Leckerli One", cursive;
+    object-fit: cover; 
+    clip-path: polygon( 50% 12%, 61% 3%, 75% 0, 88% 4%, 100% 18%, 100% 35%, 95% 48%, 85% 63%, 70% 78%, 50% 92%, 30% 78%, 15% 63%, 5% 48%, 0 35%, 0 18%, 12% 4%, 25% 0, 39% 3% );
+}
+
+h2 {
+    font-family: "Leckerli One", cursive;
+}
+
+img {
+   width: 90%; 
+   height: 90%; 
+   object-fit: cover; 
+   clip-path: polygon( 50% 12%, 61% 3%, 75% 0, 88% 4%, 100% 18%, 100% 35%, 95% 48%, 85% 63%, 70% 78%, 50% 92%, 30% 78%, 15% 63%, 5% 48%, 0 35%, 0 18%, 12% 4%, 25% 0, 39% 3% );
+   transition: transform 0.3s ease;
+   display: block; 
+   margin-left: auto;
+   margin-right: auto;
+} 
+
+img:hover { 
+    transform: scale(1.05); 
+}
+
+ul li::marker { 
+    content: "♥ "; 
+    color: white; 
+    font-size: 1.2em; }
+
+section {
+    background-color: rgb(255, 0, 111);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    padding: 100px;
+    color: white;
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
+    clip-path: polygon( 50% 12%, 61% 3%, 75% 0, 88% 4%, 100% 18%, 100% 35%, 95% 48%, 85% 63%, 70% 78%, 50% 92%, 30% 78%, 15% 63%, 5% 48%, 0 35%, 0 18%, 12% 4%, 25% 0, 39% 3% );
+    font-size: 25pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 10pt;
+    font-family: "Salsa", cursive;
+}
+
+footer {
+   background-color: rgb(255, 123, 187);
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    width: 50px; 
+    height: 50px; 
+    font-size: 10pt;
+    font-family: "Salsa", cursive;
+    object-fit: cover; 
+    clip-path: polygon( 50% 12%, 61% 3%, 75% 0, 88% 4%, 100% 18%, 100% 35%, 95% 48%, 85% 63%, 70% 78%, 50% 92%, 30% 78%, 15% 63%, 5% 48%, 0 35%, 0 18%, 12% 4%, 25% 0, 39% 3% );
+}
+
