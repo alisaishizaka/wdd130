@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images of Christ</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Leckerli+One&family=Lobster&family=Permanent+Marker&family=Salsa&family=Sue+Ellen+Francisco&display=swap');
+
+        body {
+            margin: 5% 0;
+            background: rgb(175, 146, 120);
+        }
+        #wrapper{
+            width: 800px;
+            margin: 0 auto;
+        }
+        nav {
+            color: white;
+            text-align: center;
+            font-family: "Caveat", sans-serif;
+            font-size: 2em;
+        }
+        #gallery{
+            margin-top: 5%;
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px;
+            border: 15px solid rgb(255, 255, 255);
+            width: 100%;
+            background-color: #ddd;
+            background-image:
+                linear-gradient(45deg, #ccc 26%, transparent 26%), 
+                linear-gradient(135deg, #ccc 26%, transparent 26%),
+                linear-gradient(45deg, transparent 75%, #ccc 75%),
+                linear-gradient(135deg, transparent 75%, #ccc 75%);
+            background-size: 20px 20px; /* Must be a square */
+            background-position: 0 0, 10px 0, 10px -10px, 0px 10px; 
+            
+        }
+        #gallery a {
+            cursor: url('images/christus.png'), pointer;
+        }
+        #gallery img {
+            width: 200px;
+            height: 300px;
+            opacity:50%;
+            display:block;
+        }
+        #gallery img:hover{
+            opacity: 100%;
+        }
+
+.container1, .container2, .container3, .container4, .container5, .container6, 
+.container7, .container8, .container9, .container10, .container11, .container12 {
+  position: relative;
+  width: 80%;
+  max-width: 300px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container1:hover .overlay, .container2:hover .overlay, .container3:hover .overlay, .container4:hover .overlay, .container5:hover .overlay, .container6:hover .overlay,
+.container7:hover .overlay, .container8:hover .overlay, .container9:hover .overlay, .container10:hover .overlay, .container11:hover .overlay, .container12:hover .overlay {
+  opacity: 1;
+}
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <h1>Christ Art Gallery</h1>
+        </nav>
+        <main>
+            <div id="gallery">
+               <div class="container1">
+                <a href="images/big/img1.jpeg"><img src="images/small/img1s.png" alt="Img 1" ></a>
+                <div class="overlay">Img 1</div>
+               </div>
+               <div class="container2">
+                <a href="images/big/img2.jpeg"><img src="images/small/img2s.png" alt="Img 2" ></a>
+                <div class="overlay">Img 2</div>
+               </div>
+               <div class="container3">
+                <a href="images/big/img3.jpeg"><img src="images/small/img3s.png" alt="Img 3" ></a>
+                <div class="overlay">Img 3</div>
+               </div>
+               <div class="container4">
+                <a href="images/big/img4.jpeg"><img src="images/small/img4s.png" alt="Img 4" ></a>
+                <div class="overlay">Img 4</div>
+               </div>
+               <div class="container5">
+                <a href="images/big/img5.jpeg"><img src="images/small/img5s.png" alt="Img 5" ></a>
+                <div class="overlay">Img 5</div>
+               </div>
+               <div class="container6">
+                <a href="images/big/img6.jpeg"><img src="images/small/img6s.png" alt="Img 6" ></a>
+                <div class="overlay">Img 6</div>
+               </div>
+               <div class="container7">
+                <a href="images/big/img7.jpeg"><img src="images/small/img7s.png" alt="Img 7" ></a>
+                <div class="overlay">Img 7</div>
+               </div>
+               <div class="container8">
+                <a href="images/big/img8.jpeg"><img src="images/small/img8s.png" alt="Img 8" ></a>
+                <div class="overlay">Img 8</div>
+               </div>
+               <div class="container9">
+                <a href="images/big/img9.jpeg"><img src="images/small/img9s.png" alt="Img 9" ></a>
+                <div class="overlay">Img 9</div>
+               </div>
+               <div class="container10">
+                <a href="images/big/img10.jpeg"><img src="images/small/img10s.png" alt="Img 10" ></a>
+                <div class="overlay">Img 10</div>
+               </div>
+               <div class="container11">
+                <a href="images/big/img11.jpeg"><img src="images/small/img11s.png" alt="Img 11" ></a>
+                <div class="overlay">Img 11</div>
+               </div>
+               <div class="container12">
+                <a href="images/big/img12.jpeg"><img src="images/small/img12s.png" alt="Img 12" ></a>
+                <div class="overlay">Img 12</div>
+               </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
